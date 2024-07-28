@@ -1,0 +1,153 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); */
+
+.lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* shared item */
+.btn-pink {
+    color: white;
+    background-color: #E55473;
+    width: 177px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-family: "Lato";
+    font-weight: 700;
+}
+
+.paragraph-text {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1.25rem;
+    font-family: "Lato";
+    font-weight: 400;
+}
+
+.section-title {
+    color: rgb(39, 39, 39);
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: "Lato";
+}
+
+.section-header-title {
+    color: rgb(39, 39, 39);
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: "Lato";
+}
+
+.span-color {
+    color: #E55473;
+}
+
+/* share round-up card section */
+.round-up-card {
+    background: pink;
+    width: 464px;
+    height: 538px;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    text-align: center;
+    /* remove or adjust in future */
+    margin: 100px;
+}
+
+/* remove or adjust in future */
+.round-up-card img {
+    padding-top: 110px;
+}
+
+.round-up-card p {
+    color: rgb(39, 39, 39);
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Lato";
+    text-decoration: underline;
+}
+
+/* shared round up section end here */
+
+/* shared img box style here */
+
+.img-box {
+
+    height: 396px;
+    width: 342px;
+    /* remove or adjust in future */
+    margin: 100px;
+}
+
+/* .icon-box-1 {
+    background-color: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 220px;
+    text-align: center;
+    padding-top: 150px;
+
+} */
+/* shared icon box style here */
+.icon-box {
+    display: inline-block;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.8);
+    font-size: 1.5rem;
+    margin-right: 100px;
+}
