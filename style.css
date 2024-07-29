@@ -307,6 +307,39 @@ p {
     border-radius: 8px;
 }
 
+/* footer */
+footer {
+    background-color: rgba(17, 16, 16, 1);
+    height: 449px;
+    padding: 128px 648px 128px 648px;
+}
+
+footer h3 {
+    padding-bottom: 24px;
+}
+
+footer p {
+    padding-bottom: 32px;
+}
+
+.footer-text-h3 {
+    color: white;
+}
+
+.footer-text-p {
+    color: rgb(255, 255, 255, 0.7);
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-copy-wright {
+    color: rgba(128, 128, 128, 0.6);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
 /* responsive section start here */
 @media screen and (max-width:576px) {
     .banner-container {
@@ -431,5 +464,11 @@ p {
 
     .latest-search-container form input {
         width: 200px;
+    }
+
+    footer {
+        background-color: rgba(17, 16, 16, 1);
+        height: 270px;
+        padding: 50px 0px 50px 0px;
     }
 }
