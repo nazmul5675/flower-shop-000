@@ -132,7 +132,7 @@
     height: 396px;
     width: 342px;
     /* remove or adjust in future */
-    margin: 24px;
+    margin: 15px;
 }
 
 /* .icon-box-1 {
@@ -277,6 +277,36 @@ p {
     align-items: center;
 }
 
+/* latest-deal */
+.latest-deal-container {
+
+    max-height: 450px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(images/latest-deals-bg.png);
+    padding: 121px 287px 121px 287px;
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
+.latest-deal {
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.latest-search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.latest-search-container form input {
+    height: 64px;
+    width: 700px;
+    margin-right: 16px;
+    border: none;
+    border-radius: 8px;
+}
+
 /* responsive section start here */
 @media screen and (max-width:576px) {
     .banner-container {
@@ -382,5 +412,24 @@ p {
 
     .instagram-img-container {
         flex-direction: column;
+    }
+
+    .latest-deal-container {
+        max-height: 1440px;
+        max-width: 450px;
+        padding: 50px;
+    }
+
+    .latest-deal {
+        background-color: rgb(255, 255, 255, 0.1);
+        padding: 70px;
+    }
+
+    .latest-search-container {
+        justify-content: center;
+    }
+
+    .latest-search-container form input {
+        width: 200px;
     }
 }
